@@ -1,0 +1,77 @@
+
+{
+    "boxes":[
+        {
+            "type":"class",
+            "name":"ThreadExample",
+            "package":"default",
+            "parent":"",
+            "x":650.0,
+            "y":180.0,
+            "width":240.0,
+            "height":500.0,
+            "variable":[
+                "+$START_TEXT : String",
+                "+$PAUSE_TEXT : String",
+                "-window : Stage",
+                "-appPane : BorderPane",
+                "-topPane : FlowPane",
+                "-startButton : Button",
+                "-pauseButton : Button",
+                "-scrollPane : ScrollPane",
+                "=textArea : TextArea",
+                "-dateThread : Thread",
+                "-dateTask : Task",
+                "-counterThread : Thread",
+                "-counterTask : Task",
+                "-work : boolean"
+            ],
+            "method":[
+                "+start(primaryStage : Stage) : void",
+                "+startWork() : void",
+                "+pauseWork() : void",
+                "+doWork() : boolean",
+                "+appendText(textToAppend : String) : void",
+                "+sleep(timeToSleep) : void",
+                "-initLayout() : void",
+                "-initHnadlers() : void",
+                "-initWindow(initPrimaryStage : Stage) : void",
+                "-initThreads() : void",
+                "+$main(args : String[]) : void"
+            ]
+        },
+        {
+            "type":"abstract",
+            "name":"{abstract}\nApplication",
+            "package":"default",
+            "parent":"",
+            "x":670.0,
+            "y":0.0,
+            "width":200.0,
+            "height":140.0,
+            "variable":[
+            ],
+            "method":[
+                "{abstract}",
+                "start(primaryStage : Stage) : void"
+            ]
+        }
+    ],
+    "connectors":[
+        {
+            "begin":0,
+            "end":5,
+            "type":"triangle",
+            "coordinates":[
+                [
+                    770.0,
+                    140.0
+                ],
+                [
+                    770.0,
+                    180.0
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+/* 
+    Created on : Apr 4, 2016, 6:26:22 PM
+    Author     : Ji En Chen
+*/
+
+.bordered_pane {
+    -fx-background-color: #a3bbfa;
+    -fx-background-radius: 5.0;
+    -fx-padding: 11;
+    -fx-spacing: 10;
+}
+
+.top_pane {
+    -fx-background-color: #E0E0E0;
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+.canvas {
+	-fx-background-color: #FBEDCE;
+	-fx-background-radius: 5.0;
+	-fx-border-width: 1px;
+	-fx-border-color: #001f3f;
+}
+
+.properties {
+	-fx-background-color: #f8e2ae;
+	-fx-background-radius: 5.0;
+	-fx-border-width: 1px;
+	-fx-border-color: #001f3f;
+	-fx-padding: 30;
+	-fx-spacing: 30;
+}
+
